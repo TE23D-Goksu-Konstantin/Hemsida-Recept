@@ -59,6 +59,10 @@ h2{
     padding: 5%;
     background-color: #f4f3c9;
     font-family: "itim", cursive, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: x-large;
 }
 
 nav{
@@ -94,3 +98,9 @@ nav{
 }
 
 
+.IngBild{
+    display: grid;
+    grid-column: 2/4;
+    width: 100%;
+    opacity
+}
