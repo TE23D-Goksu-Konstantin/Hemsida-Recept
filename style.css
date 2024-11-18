@@ -1,6 +1,6 @@
 main{
     display: grid;
-    grid-template-columns: repeat(3, 3fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 20vh, 5vh, 30vh;
 }
 
@@ -16,6 +16,12 @@ img{
     width: 60%;
     border: 3px solid black;
 
+}
+
+.Huvudbild{
+    grid-column: 1/4;
+    width: 100%;
+    opacity: 30%;
 }
 
 header{
