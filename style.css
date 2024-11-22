@@ -5,7 +5,6 @@ body{
     grid-template-rows: 20vh, 5vh, 30vh, 10vh, 30vh;
 }
 
-
 img{
     height: 100%;
     width: 60%;
@@ -24,7 +23,7 @@ header{
     margin-top: 5%;
 }
 
-.Logotyp{
+#Logotyp{
     border: 3px solid black;
 }
 
@@ -36,9 +35,18 @@ h3{
     background-color: #FFFEDE;
     margin-left: 40%;
     margin-right: 40%;
-    margin-bottom: 45%;
+    margin-bottom: 26.5%;
 }
 
+.TheLine{
+    grid-column: 1/4;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid;
+    font-family: "itim", cursive, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
 
 
 .itim-regular {
@@ -81,15 +89,15 @@ nav{
     list-style-type: none;
 }
 
-.Sec1ing{
+.Sek1ing{
     flex-direction: column;
 }
 
-.Sec2ing{
+.Sek2ing{
     flex-direction: column;
 }
 
-.Sec3ing{
+.Sek3ing{
     font-size: smaller;
     align-items: end;
     align-self: flex-end;
@@ -98,9 +106,62 @@ nav{
 }
 
 
-.IngBild{
+#IngBild{
     display: grid;
     grid-column: 2/4;
     width: 100%;
     opacity
+}
+
+#StegRub{
+    grid-column: 2/3;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+.steg{
+    margin-left: 10%;
+    background-color: #f4f3c9;
+    text-align: center;
+    border: rgba(0, 0, 0, 50%) 2px solid;
+    margin-bottom: 15%;
+    font-family: "itim", cursive, 'Times New Roman', Times, serif;
+    grid-column: 1/2;
+}
+
+h4{
+    border: rgba(0, 0, 0, 50%) 2px solid;
+    background-color: #f4f3c9; 
+    align-self: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    font-size: x-large;
+}
+
+
+.stegbild{
+    margin-bottom: 2.5%;
+    grid-column: 3;
+    width: 100%;
+    height: 90%;
+    border: rgba(0, 0, 0, 50%) 2px solid;
+}
+
+
+#klar{
+    grid-column: 2/3;
+    border: rgba(0, 0, 0, 50%) 2px solid;
+    text-align: center;
+}
+
+footer{
+    grid-column: 1/4;
+    border: rgba(0, 0, 0, 50%) 2px solid;
+    background-color: beige;
+    text-align: center;
+    font-size: large;
+    font-family: "itim", cursive, 'Times New Roman', Times, serif;
 }
